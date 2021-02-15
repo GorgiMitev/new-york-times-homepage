@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px rgb(0,0,0,0.1);
+}
+
+a.first-link {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+svg {
+    width: 230px;
+}
+
+div.buttons{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+form {
+    margin: 0 5px;
+    
+}
+
+input {
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(86,123,149);
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 11px 12px 8px;
+    border: 1px solid #326891;
+    height: 2rem;
+}
